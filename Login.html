@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Login tickitz</title>
+</head>
+
+<body>
+  <!-- Welcome Ticktiz -->
+  <section class="banner__tickitz">
+    <div class="banner__tickitz-image-container">
+      <div class="banner__tickitz-overlay">
+        <div class="banner__tickitz-overlay-parent">
+          <img src="assets/img/tickitz.png" class="banner__tickitz-overlay-image img-fluid" alt="tickitz">
+          <h2 class="banner_tickitz-title">wait, watch, wow!</h2>
+        </div>
+      </div>
+      <img src="assets/img/bg-login.png" class="banner__tickitz-image img-fluid" alt="Banner tickitz">
+    </div>
+    <div class="form__parent">
+      <img src="assets/img/Logo.svg" class="mb-5 d-block d-md-none" alt="">
+      <h1 class="form__child__title">Sign In</h1>
+      <p class="form__child__desc">Sign in with your data that you entered during
+        your registration</p>
+      <div class="mb-3">
+        <label for="email">Email</label>
+        <input type="email" class="input__form-login" id="email" placeholder="Write your email">
+      </div>
+      <div class="mb-3">
+        <label for="password">Password</label>
+        <input type="password" class="input__form-login" id="password" placeholder="Write your password">
+      </div>
+      <div class="mb-3">
+        <a href="Home.html" class="button__signin">Sign In</a>
+        <div class="d-flex justify-content-center mt-4 forget-password__header">
+          <p>Forgot your password? &nbsp;</p>
+          <a href="#" class="forgot-password__title">Reset Now</a>
+        </div>
+      </div>
+      <div class="banner__tickitz-break">
+        <hr>
+        <p>Or</p>
+        <hr>
+      </div>
+      <div class="banner__ticktiz-authentication">
+        <button class="banner__tickitz-button">
+          <img src="assets/img/Google-icon.svg" class="banner__tickitz-authentication-icon w-100 img-fluid"
+            alt="Google Icon">
+          <span class="banner__tickitz-authentication-title mx-2">Google</span>
+        </button>
+        <button class="banner__tickitz-button">
+          <img src="assets/img/Facebook-icon.svg" class="banner__tickitz-authentication-icon w-100 img-fluid"
+            alt="Facebook Icon">
+          <span class="banner__tickitz-authentication-title mx-2">Facebook</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+  <!-- Form Login -->
+</body>
+
+</html>

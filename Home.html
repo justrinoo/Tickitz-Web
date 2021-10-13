@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Tickitz</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navigation__homepage">
+      <div class="navigation__homepage__parent">
+        <div class="navigation__homepage--listmenu">
+          <a href="#" class="mx-4">
+            <img src="assets/img/Logo.svg" class="img-fluid mb-2 navigation__homepage--image " alt="Logo">
+          </a>
+          <a href="#" class="d-none d-md-inline-block mx-5">Home</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Payment</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Profile</a>
+        </div>
+      </div>
+      <div class="navigation__homepage__parent">
+        <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
+        <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
+          aria-controls="navigation__menu"></a>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <select class="navigation__homepage--option-select">
+            <option hidden>Location</option>
+            <option value="Indonesia">Indonesia</option>
+          </select>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <button class="button__signup--homepage">Sign Up</button>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- Menu Mobile -->
+    <div class="d-block d-md-none collapse p-4 navigation__homepage--mobile position-absolute" id="navigation__menu">
+      <input type="search" class="navigation__homepage--mobile__input" placeholder="Search...">
+      <div class="text-center">
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Home</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Payment</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Profile</a>
+        </div>
+        <p class="text-muted mt-5">&copy; 2021 Tickitz, All Rights Reserved</p>
+      </div>
+
+    </div>
+    <!-- Akhir Menu Mobile -->
+  </header>
+  <!-- Akhir Navigation -->
+
+  <!-- Hero -->
+  <main class="container mx-auto  hero">
+    <div class="row">
+      <section class="col-md-6 hero__spacing--column-left">
+        <span class="hero__title">Nearest Cinema, Newest Movie,</span>
+        <h1 class="hero__title--showmore">Find out now!</h1>
+      </section>
+      <section class="col-md-6 hero__spacing--column">
+        <img src="assets/img/Banner-Hero.png" class="img-fluid hero__image--banner" alt="Banner Hero">
+      </section>
+    </div>
+    <!-- Akhir Hero -->
+
+    <!-- Menu Movies -->
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <h4 class="fw-bold title__nowshowing">Now Showing</h4>
+        <hr class="mx-auto w-75 d-none d-md-block" />
+      </div>
+      <div>
+        <a href="#" class="fw-bold allmovie__nowshowing">view all</a>
+      </div>
+    </div>
+    <!-- Akhir Menu Movies -->
+
+    <!-- List Movies -->
+    <section>
+      <div class="row flex-nowrap" style="overflow-x:auto;">
+        <div class="col-sm-6 col-md-2 mx-2">
+          <img src="assets/img/movies3.png" class="movies__list-image img-fluid" alt="Movies">
+        </div>
+        <div class="col-sm-6 col-md-2 mx-2">
+          <img src="assets/img/movies2.png" class="movies__list-image img-fluid" alt="Movies">
+        </div>
+        <div class="col-sm-6 col-md-2 mx-2">
+          <img src="assets/img/movies1.png" class="movies__list-image img-fluid" alt="Movies">
+        </div>
+        <div class="col-sm-6 col-md-2 mx-2">
+          <img src="assets/img/movies4.png" class="movies__list-image img-fluid" alt="Movies">
+        </div>
+        <div class="col-sm-6 col-md-2 mx-2">
+          <img src="assets/img/movies5.png" class="movies__list-image img-fluid" alt="Movies">
+        </div>
+      </div>
+    </section>
+    <!-- Akhir List Movies -->
+
+    <!-- Upcomming movies -->
+    <section class="upcomming__movies">
+      <!-- DATE UPCOMMING MOVIES -->
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h4 class="fw-bold title__nowshowing">Now Showing</h4>
+          <hr class="mx-auto w-75 d-none d-md-block" />
+        </div>
+        <div>
+          <a href="#" class="fw-bold allmovie__nowshowing">view all</a>
+        </div>
+      </div>
+      <div class="row flex-nowrap" style="overflow-x: auto;">
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button-active">September</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Oktober</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">November</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Desember</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Januari</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Februari</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Maret</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">April</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Mei</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Juni</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Juli</button>
+        </div>
+        <div class="col-4 col-md-1 mx-md-0 mx-3">
+          <button class="btn upcomming__movies--button">Agustus</button>
+        </div>
+      </div>
+      <!-- END DATE UPCOMMING MOVIES -->
+
+      <!-- LIST MOVIES UPCOMMING -->
+      <div class="row flex-nowrap mt-5" style="overflow-x: auto;">
+        <div class="col-sm-6 col-md-2 upcomming__movies-list text-center mx-3">
+          <img src="assets/img/upcomming-movies-1.png" alt="Movies Upcomming"
+            class="upcomming__movies--image img-fluid">
+          <p class="fw-bold mt-3">Tenet</p>
+          <span class="text-muted">Adventure</span>
+          <button class="upcomming__movies--button-details">Details</button>
+        </div>
+        <div class="col-sm-6 col-md-2 upcomming__movies-list text-center mx-3">
+          <img src="assets/img/upcomming-movies-2.png" alt="Movies Upcomming"
+            class="upcomming__movies--image img-fluid">
+          <p class="fw-bold mt-3">Tenet</p>
+          <span class="text-muted">Adventure</span>
+          <button class="upcomming__movies--button-details">Details</button>
+        </div>
+        <div class="col-sm-6 col-md-2 upcomming__movies-list text-center mx-3">
+          <img src="assets/img/upcomming-movies-3.png" alt="Movies Upcomming"
+            class="upcomming__movies--image img-fluid">
+          <p class="fw-bold mt-3">Tenet</p>
+          <span class="text-muted">Adventure</span>
+          <button class="upcomming__movies--button-details">Details</button>
+        </div>
+        <div class="col-sm-6 col-md-2 upcomming__movies-list text-center mx-3">
+          <img src="assets/img/upcomming-movies-4.png" alt="Movies Upcomming"
+            class="upcomming__movies--image img-fluid">
+          <p class="fw-bold mt-3">Tenet</p>
+          <span class="text-muted">Adventure</span>
+          <button class="upcomming__movies--button-details">Details</button>
+        </div>
+        <div class="col-sm-6 col-md-2 upcomming__movies-list text-center mx-3">
+          <img src="assets/img/upcomming-movies-5.png" alt="Movies Upcomming"
+            class="upcomming__movies--image img-fluid">
+          <p class="fw-bold mt-3">Tenet</p>
+          <span class="text-muted">Adventure</span>
+          <button class="upcomming__movies--button-details">Details</button>
+        </div>
+      </div>
+      <!-- END LIST MOVIES UPCOMMING -->
+    </section>
+    <!-- Akhir Upcomming movies -->
+
+    <!-- Joining Tickitz -->
+    <div class="join__tickitz text-center">
+      <span class="join__tickitz--title">Be the vanguard of the</span>
+      <h1 class="join__tickitz--subtitle">Moviegoers</h1>
+
+      <div class="d-flex justify-content-center align-items-center mt-5">
+        <div>
+          <input type="text" class="join__tickitz--input" placeholder="Type your email">
+        </div>
+        <div>
+          <button class="mx-2 join__tickitz--button">Join Now</button>
+        </div>
+      </div>
+
+      <p class="mt-5 text-muted">By joining you as a Tickitz member, <br>
+        we will always send you the latest updates via email . </p>
+    </div>
+    <!-- Akhir Joining Tickitz -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer__tickitz container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer__tickitz--brand">
+          <img src="assets/img/Logo.svg" alt="Logo">
+          <span class="footer__tickitz--desc">Stop waiting in line. Buy tickets
+            conveniently, watch movies quietly.</span>
+        </div>
+      </div>
+      <div class="footer__tickitz--explore col-md-3">
+        <h6 class="fw-bold">Explore</h6>
+        <div class="footer__tickitz--explore--menu d-flex flex-sm-column-reverse flex-md-column mt-3">
+          <a href="#" class="text-decoration-none footer__tickitz--link lh-lg">
+            Cinemas
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            Movies List
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            My Ticket
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            Notification
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__tickitz--sponsor_mobile">
+          <h6 class="fw-bold">Our Sponsors</h6>
+          <div class="footer__tickitz--sponsor_mobile-column d-flex flex-sm-column flex-md-column mt-3">
+            <a href="#">
+              <img src="assets/img/Sponsor1.png" class="footer__tickitz--sponsor img-fluid mt-2" alt="Sponsor">
+            </a>
+            <a href="#">
+              <img src="assets/img/Sponsor2.png" class="footer__tickitz--sponsor img-fluid mt-2" alt="Sponsor">
+            </a>
+            <a href="#">
+              <img src="assets/img/Sponsor3.png" class="footer__tickitz--sponsor img-fluid mt-3" alt="Sponsor">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__tickitz--title-follow-us_mobile">
+          <h6 class="fw-bold">Follow Us</h6>
+          <div class="d-flex flex-sm-column flex-md-column">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-1.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Twitter">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">tickitz.id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-2.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Facebook">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">Tickitz Cinema id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-3.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Instagram">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">tickitz.id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-4.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Youtube">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">Tickitz Cinema id</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <p class="footer__tickitz--title-copyright mt-4">© 2021 Tickitz. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

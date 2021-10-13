@@ -1,0 +1,865 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&display=swap");
+@import url("../../node_modules/bootstrap-icons/font/bootstrap-icons.css");
+* {
+	font-family: "Mulish", sans-serif;
+}
+/* Login */
+.banner__tickitz {
+	display: flex;
+}
+.banner__tickitz-image-container {
+	position: relative;
+	width: 70%;
+}
+.tickitz__form {
+	width: 100%;
+}
+.banner__tickitz-overlay-image {
+	width: 50%;
+}
+.banner__tickitz-overlay-parent {
+	text-align: center;
+	margin: 220px 0px;
+}
+.banner__tickitz-image {
+	height: 721px;
+	width: 100%;
+	object-fit: cover;
+}
+.banner__tickitz-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(43, 21, 107, 0.8);
+}
+.banner_tickitz-title {
+	margin-top: 10px;
+	color: #ffffff;
+	opacity: 0.8;
+}
+.banner__tickitz-break {
+	display: flex;
+}
+.banner__tickitz-break hr {
+	height: 3px;
+	border: 0.5px solid #dedede;
+	width: 100%;
+}
+.banner__tickitz-break p {
+	font-size: 12px;
+	font-weight: bold;
+	color: #aaaaaa;
+	margin: 8px 20px;
+}
+.banner__ticktiz-authentication {
+	display: flex;
+	justify-content: center;
+}
+.banner__tickitz-button {
+	border: none;
+	padding: 12px 36px;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 18px;
+	color: #a0a3bd;
+	background: #ffffff;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	margin: 20px 36px;
+}
+
+/* End Login */
+/* HOME */
+.banner-tickitz__parent_title {
+	position: absolute;
+	width: 97.6%;
+	margin: -12px;
+	height: 100%;
+	background-color: #2b156bcc;
+}
+.banner_tickitz__title--header {
+	font-size: 120px;
+}
+.banner_tickitz__title--intro {
+	color: #ffffff;
+	opacity: 0.8;
+}
+.form__parent {
+	padding: 50px;
+}
+.form__child__title {
+	font-size: 3rem;
+	font-weight: bold;
+}
+.form__child__desc {
+	color: #aaaaaa;
+	font-size: 18px;
+}
+.input__form-login {
+	background-color: #fcfdfe;
+	width: 100%;
+	border-radius: 16px;
+	border: 1px solid #dedede;
+	padding: 16px 16px;
+	margin-top: 8px;
+}
+.button__signin {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	padding: 16px 16px;
+	font-weight: 600;
+	margin-top: 10px;
+	border-radius: 16px;
+	background-color: #5f2eea;
+	border: none;
+	color: #fff;
+}
+.button__signin:hover {
+	color: #fff;
+}
+
+.forgot-password__title {
+	color: #5f2eea;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.navigation__homepage {
+	padding: 36px 74px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navigation__homepage--listmenu a {
+	text-decoration: none;
+	font-weight: 600;
+	color: #414141;
+}
+.navigation__homepage__parent {
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+.button__signup--homepage {
+	background-color: #5f2eea;
+	border-radius: 8px;
+	padding: 6px 24px;
+	border: none;
+	font-weight: bold;
+	color: #fff;
+	transition: 0.5s;
+}
+.button__signup--homepage:hover {
+	box-shadow: 3px 4px 3px #5f2eea;
+}
+.navigation__homepage--option-select {
+	border: none;
+}
+.navigation__homepage--search-icon {
+	border: none;
+	background-color: transparent;
+	color: #414141;
+}
+.navigation__homepage--search-icon i {
+	width: 20px;
+	height: 40px;
+}
+.hero__spacing--column-left {
+	/* padding: 0px 36px; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* align-items: center; */
+}
+.hero__title {
+	font-size: 1rem;
+	color: #a0a3bd;
+}
+.hero__title--showmore {
+	margin-top: 5px;
+	font-size: 2.4rem;
+	color: #5f2eea;
+	font-weight: bold;
+}
+.hero__image--banner {
+	width: 90%;
+}
+
+.join__tickitz {
+	padding: 36px 0;
+	background: #ffffff;
+	box-shadow: 0px 16px 32px rgba(186, 186, 186, 0.3);
+	border-radius: 24px;
+}
+.join__tickitz--title {
+	font-size: 24px;
+	color: #414141;
+}
+.join__tickitz--subtitle {
+	font-size: 48px;
+	color: #5f2eea;
+	font-weight: bold;
+}
+.join__tickitz--input {
+	border: 2px solid #dedede;
+	padding: 12px 24px;
+	border-radius: 12px;
+}
+.join__tickitz--button {
+	border: none;
+	color: #fff;
+	background: #5f2eea;
+	border-radius: 12px;
+	padding: 12px 24px;
+}
+
+.movies__list--card {
+	border-radius: 24px;
+}
+.movies__list-image {
+	width: 220px;
+}
+
+.allmovie__nowshowing {
+	color: #5f2eea;
+	font-weight: bold;
+}
+.upcomming__movies {
+	margin: 180px 0;
+}
+.upcomming__movies--button-active {
+	border: none;
+	padding: 6px 18px;
+	color: #ffffff;
+	background: #5f2eea;
+	box-shadow: 0px 8px 30px rgba(95, 46, 234, 0.3);
+	border-radius: 4px;
+}
+.upcomming__movies--button {
+	border: none;
+	padding: 6px 20px;
+	background-color: transparent;
+	color: #5f2eea;
+	border: 1px solid #5f2eea;
+	border-radius: 4px;
+}
+.upcomming__movies-list {
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 24px;
+	padding: 24px;
+}
+.upcomming__movies--image {
+	width: 244px;
+}
+span {
+	display: block;
+}
+.upcomming__movies--button-details {
+	margin-top: 20px;
+	border: 1px solid #5f2eea;
+	background-color: transparent;
+	color: #5f2eea;
+	width: 100%;
+	border-radius: 8px;
+}
+.footer__tickitz--title-follow-us {
+	color: #6e7191;
+	font-weight: 600;
+}
+.footer__tickitz--title-copyright {
+	text-align: center;
+}
+.navigation__homepage--mobile__input {
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+.navigation__homepage--mobile-parent-link {
+	width: 100%;
+	padding: 10px;
+	border-top: 0.5px solid #dedede;
+	border-bottom: 0.5px solid #dedede;
+}
+.navigation__homepage--mobile-link {
+	margin-top: 10px;
+	text-decoration: none;
+	color: #414141;
+}
+.navigation__homepage--mobile {
+	width: 90%;
+	height: 250px;
+}
+.footer__tickitz {
+	margin-top: 80px;
+}
+.footer__tickitz span {
+	margin-top: 30px;
+}
+.footer__tickitz--desc {
+	color: #6e7191;
+	letter-spacing: 0.75px;
+}
+.footer__tickitz--sponsor {
+	width: 120px;
+}
+.footer__tickitz--link {
+	color: #6e7191;
+}
+/* END HOME */
+
+/* DETAIL MOVIE */
+.main__detail-movie {
+	padding: 0px 92px !important;
+}
+.detail__movie {
+	display: flex;
+}
+.detail__movie--container {
+	padding: 32px;
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 16px;
+}
+.detail__movie--image {
+	width: 250px;
+}
+.detail__movie--desc {
+	padding: 0px 48px;
+}
+.detail__movie--desc-subtitle {
+	color: #4e4b66;
+	font-size: 18px;
+}
+.detail__movie-desc-title {
+	color: #8692a6;
+}
+.detail__movie--desc-child {
+	margin-top: 30px;
+}
+.detail__movie--desc-child p {
+	color: #14142b;
+	font-weight: 600;
+}
+.detail_movie--desc-synopsis {
+	margin: 50px 0px;
+}
+.detail__movie--desc-synopsis--paragraph {
+	text-align: justify;
+	color: #4e4b66;
+}
+.detail__schedule--title-schedule {
+	color: #14142b;
+	font-weight: 700;
+	font-size: 24px;
+}
+.detail__schedule-form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.detail__schedule-input-date {
+	margin: 0px 12px;
+	background: #eff0f6;
+	border-radius: 6px;
+	border: none;
+	padding: 8px 64px;
+}
+.detail__schedule-input-city {
+	margin: 0px 12px;
+	background: #eff0f6;
+	border-radius: 6px;
+	border: none;
+	padding: 8px 64px;
+}
+.test-detail {
+	width: 0;
+}
+.schedule__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.schedule__list-card {
+	margin: 10px;
+	flex: 25%;
+	background: #ffffff;
+	box-shadow: 0px 8px 16px rgba(186, 186, 186, 0.24);
+	border-radius: 24px;
+	padding: 24px;
+	width: 40%;
+}
+
+.schedule__list--desc-card {
+	padding: 0px 24px;
+}
+.schedule__list--title-premier {
+	color: #000000;
+	font-weight: 600;
+	font-size: 24px;
+}
+.schedule__list--premier {
+	display: flex;
+	align-items: center;
+}
+.schedule__list--address-schedule {
+	font-size: 12px;
+	color: #6e7191;
+}
+.schedule__list--time-schedule {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.schedule__list--time-schedule p {
+	flex: 26%;
+}
+.schedule__list-title-soldout {
+	color: #a0a3bd;
+	font-weight: 600;
+}
+.schedule__list--premier_price {
+	margin: 20px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.schedule__list--premier_price h6:nth-child(1) {
+	color: #6b6b6b;
+	font-size: 16px;
+}
+.schedule__list--premier_price h6:nth-child(2) {
+	font-weight: 600;
+}
+.schedule__list--premier__button {
+	text-align: center;
+	padding: 12px 0px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	background: #5f2eea;
+	box-shadow: 0px 8px 24px rgba(95, 46, 234, 0.24);
+	border-radius: 4px;
+}
+.schedule__pagination {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 0px;
+}
+.schedule__pagination-button {
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0px 12px;
+	padding: 8px 14px;
+	background: #5f2eea;
+	box-shadow: 0px 8px 16px rgba(95, 46, 234, 0.24);
+	border-radius: 8px;
+}
+.schedule__pagination-button-previous {
+	text-decoration: none;
+	color: #000000;
+	margin: 0px 12px;
+	padding: 8px 14px;
+	background: #ffffff;
+	border: 0.5px solid #dedede;
+	border-radius: 8px;
+}
+.schedule__pagination-button:hover {
+	color: #ffffff;
+}
+.schedule__pagination-button-previous:hover {
+	color: #000000;
+}
+/* END DETAIL MOVIE */
+
+/* Order Movie */
+.subnav__header {
+	background-color: #5f2eea;
+	color: #ffffff;
+	padding: 24px 92px;
+	box-shadow: 0px 8px 24px rgba(186, 186, 186, 0.16);
+	border-radius: 0px 0px 32px 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.subnav__header p {
+	font-size: 24px;
+	font-weight: 600;
+}
+.subnav__header button {
+	border: none;
+	padding: 12px 36px;
+	margin: 0px 36px;
+	border-radius: 36px;
+	font-weight: bold;
+	color: #5f2eea;
+	opacity: 0.8;
+}
+.order__movie {
+	padding: 24px 92px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f5f6f8;
+}
+.order__movie-list-seat {
+	width: 70%;
+	margin: 20px 24px;
+}
+.order__movie--info-order {
+	width: 30%;
+	margin-top: 20px;
+}
+.order__movie-list-title {
+	font-weight: bold;
+}
+.order__movie-list-card {
+	margin-top: 20px;
+	background-color: #ffffff;
+	padding: 92px;
+	border-radius: 24px;
+}
+.order__movie-list-card p {
+	text-align: center;
+	font-size: 14px;
+	color: #4e4b66;
+	font-weight: 600;
+}
+.order__movie-list-line {
+	padding: 4px;
+	opacity: 1;
+	background: #9570fe;
+	border-radius: 8px;
+}
+.order__movie-info-order_title {
+	font-weight: bold;
+}
+.order__movie-info-order_card {
+	margin-top: 20px;
+	width: 100%;
+	background: #ffffff;
+	box-shadow: 0px 8px 24px rgba(17, 17, 17, 0.08);
+	border-radius: 16px;
+	padding: 40px 24px;
+}
+.order__movie-info-order-parent {
+	text-align: center;
+}
+.order__movie-info-order-image-premier {
+	width: 50%;
+}
+.order__movie-info-order-parent h4 {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 24px;
+}
+.order__movie-info-order-list {
+	margin-top: 40px;
+}
+.order__movie-info-order-list-child {
+	display: flex;
+	justify-content: space-between;
+}
+.order__movie-info-order-list-child p {
+	color: #6b6b6b;
+}
+.order__movie-info-order-list-child span {
+	color: #14142b;
+	font-weight: 600;
+}
+.order__movie-info-order-line {
+	width: 100%;
+}
+.order__movie-indo-order-total-payment {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order__movie-indo-order-total-payment h3 {
+	font-weight: 600;
+	font-size: 18px;
+}
+.order__movie-indo-order-total-payment p {
+	margin-top: 10px;
+	color: #5f2eea;
+	font-weight: bold;
+	font-size: 24px;
+}
+.order__movie-container-button {
+	border: 2px solid #5f2eea;
+	border-radius: 16px;
+	color: #5f2eea;
+	text-align: center;
+	padding: 6px 52px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.order__movie-container-button-active {
+	background-color: #5f2eea;
+	border-radius: 16px;
+	text-align: center;
+	border: none;
+	padding: 6px 62px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+}
+.order__movie-container {
+	margin: 40px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+/* End Order Movie */
+@media (max-width: 575.98px) {
+	/* Login */
+	.banner__tickitz-image-container {
+		display: none;
+	}
+	.form__parent {
+		padding: 46px;
+	}
+	.form__child__title {
+		font-weight: 600;
+		font-size: 26px;
+		margin-bottom: 40px;
+	}
+	.form__child__desc {
+		display: none;
+	}
+	.input__form-login {
+		border-radius: 12px;
+	}
+	.banner__tickitz-button {
+		display: inline-block;
+		margin: 20px;
+		padding: 20px;
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+		border-radius: 12px;
+	}
+	.banner__tickitz-authentication-title {
+		display: none;
+	}
+	.banner__tickitz-authentication-icon {
+		display: inline-block;
+	}
+	/* End Login */
+	header {
+		width: 100%;
+	}
+	.navigation__homepage {
+		padding: 24px;
+		background-color: #ffffff;
+		box-shadow: 0px 4px 16px rgba(186, 186, 186, 0.08);
+	}
+
+	.navigation__homepage--mobile {
+		background-color: #ffffff;
+		height: 300px;
+		width: 100%;
+	}
+	.navigation__homepage--image {
+		width: 80px;
+	}
+
+	.title__nowshowing {
+		font-size: 18px;
+	}
+	.allmovie__nowshowing {
+		text-decoration: none;
+	}
+	main {
+		width: 100%;
+	}
+	.join__tickitz--input {
+		width: 100%;
+	}
+	.join__tickitz--button {
+		width: 100%;
+	}
+	.join__tickitz--title {
+		font-size: 20px;
+	}
+	.footer__tickitz {
+		margin: 0;
+	}
+	.join__tickitz--subtitle {
+		font-size: 48px;
+	}
+	.footer__tickitz--explore--menu {
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	.footer__tickitz--explore h6 {
+		margin: 0px 12px;
+	}
+	.footer__tickitz--link {
+		text-align: center;
+		padding: 0px 12px;
+		margin: 0px 4px;
+		text-align: center;
+		color: #6e7191;
+		display: block;
+	}
+	.footer__tickitz--brand {
+		margin: 120px 0px 0px;
+		padding: 10px;
+	}
+	.footer__tickitz--sponsor_mobile {
+		margin: 35px 0px 0px;
+		padding: 10px;
+	}
+
+	.footer__tickitz--sponsor {
+		margin: 0px 24px;
+		width: 76.24px;
+	}
+	.footer__tickitz--title-follow-us_mobile {
+		margin: 25px 0px 0px;
+		padding: 10px;
+	}
+	.footer__tickitz--title-follow-us {
+		display: none;
+	}
+	.footer__tickitz--icon-link {
+		margin: auto 16px;
+	}
+	.footer__tickitz--title-copyright {
+		text-align: left;
+	}
+
+	/* Detail Movie */
+	.main__detail-movie {
+		padding: 0px 24px !important;
+	}
+	.detail__movie {
+		display: inline-block;
+	}
+	.detail__movie--container {
+		padding: 32px 42px;
+		margin: 0;
+		justify-content: center;
+		display: flex;
+	}
+	.detail__movie--image {
+		width: 200px;
+	}
+	.detail__movie--desc {
+		padding: 0;
+		margin-top: 40px;
+	}
+	.detail__movie--desc h2 {
+		text-align: center;
+		font-size: 18px;
+	}
+	.detail__movie--desc-subtitle {
+		text-align: center;
+		font-size: 1rem;
+	}
+	.detail__movie--desc-mobile {
+		display: flex;
+		flex-direction: column;
+	}
+	.detail__movie--desc-child {
+		text-align: center;
+	}
+	.detail__schedule--title-schedule {
+		font-size: 18px;
+		font-weight: 700;
+	}
+	.detail__schedule-form {
+		padding: 0px 48px;
+		display: block;
+	}
+	.detail__schedule-input-date {
+		padding: 8px 24px;
+		margin: 4px;
+		width: 100%;
+	}
+	.detail__schedule-input-city {
+		padding: 8px 24px;
+		margin: 4px;
+		width: 100%;
+	}
+	.schedule__list {
+		display: inline-block;
+	}
+	.schedule__list .schedule__list-card:nth-child(3) {
+		display: none;
+	}
+	.schedule__list .schedule__list-card:nth-child(4) {
+		display: none;
+	}
+	.schedule__list .schedule__list-card:nth-child(5) {
+		display: none;
+	}
+	.schedule__list .schedule__list-card:nth-child(6) {
+		display: none;
+	}
+	.schedule__list-card {
+		width: 100%;
+	}
+	/* Order Page */
+	.order__movie {
+		padding: 0;
+		margin: 0px;
+		display: inline-block;
+		position: relative;
+	}
+	.order__movie-list-title {
+		font-size: 18px;
+		margin: 32px 0px;
+	}
+	.order__movie-list-seat {
+		width: 90%;
+	}
+	.order__movie--info-order {
+		width: 90%;
+		margin: 0px 24px;
+	}
+	.order__movie-info-order_title {
+		font-size: 18px;
+		font-weight: 600;
+	}
+	.order__movie-container {
+		display: inline;
+	}
+	.order__movie-container-button {
+		display: none;
+	}
+	.order__movie-container-button-active {
+		width: 90%;
+		margin: -30px 0px;
+		padding: 15px;
+		bottom: -50px;
+		position: absolute;
+	}
+	.order__movie-info-order-title-none {
+		display: none;
+	}
+	.order__movie-info-order-title-movie {
+		margin: -20px auto;
+		font-weight: bold;
+	}
+	.order__movie-info-order-list-child {
+		margin: 16px 0px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.navigation__homepage--mobile {
+		background-color: #ffffff;
+		height: 300px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.navigation__homepage--mobile {
+		display: none;
+	}
+}

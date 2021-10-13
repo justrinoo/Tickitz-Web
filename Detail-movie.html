@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Details Movie</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navigation__homepage">
+      <div class="navigation__homepage__parent">
+        <div class="navigation__homepage--listmenu">
+          <a href="#" class="mx-4">
+            <img src="assets/img/Logo.svg" class="img-fluid mb-2 navigation__homepage--image " alt="Logo">
+          </a>
+          <a href="#" class="d-none d-md-inline-block mx-5">Home</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Payment</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Profile</a>
+        </div>
+      </div>
+      <div class="navigation__homepage__parent">
+        <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
+        <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
+          aria-controls="navigation__menu"></a>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <select class="navigation__homepage--option-select">
+            <option hidden>Location</option>
+            <option value="Indonesia">Indonesia</option>
+          </select>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <img src="assets/img/Profile.png" class="img-fluid w-50" alt="Profile">
+        </div>
+
+      </div>
+    </nav>
+
+
+    <!-- Menu Mobile -->
+    <div class="d-none d-md-block d-md-none collapse p-4 navigation__homepage--mobile position-absolute"
+      id="navigation__menu">
+      <input type="search" class="navigation__homepage--mobile__input" placeholder="Search...">
+      <div class="text-center">
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Home</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Payment</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Profile</a>
+        </div>
+        <p class="text-muted mt-5">&copy; 2021 Tickitz, All Rights Reserved</p>
+      </div>
+
+    </div>
+    <!-- Akhir Menu Mobile -->
+  </header>
+  <!-- End Navigation -->
+  <main class="main__detail-movie">
+    <section class="detail__movie">
+      <section class="detail__movie--container">
+        <img src="assets/img/movies3.png" class="img-fluid detail__movie--image" alt="Spiderman Movie">
+      </section>
+      <section class="detail__movie--desc">
+        <h2 class="fw-bold">Spider-Man : Homecoming</h2>
+        <p class="detail__movie--desc-subtitle">Adventure, Action, Sci-Fi</p>
+        <div class="detail__movie--desc-mobile">
+          <div class="detail__movie--desc-child">
+            <span class="detail__movie-desc-title">Release Date</span>
+            <p>June 28, 2017</p>
+          </div>
+          <div class="detail__movie--desc-child">
+            <span class="detail__movie-desc-title">Duration</span>
+            <p>2 hours 13 minutes</p>
+          </div>
+          <div class="detail__movie--desc-child">
+            <span class="detail__movie-desc-title">Directed by</span>
+            <p>Jon watss</p>
+          </div>
+          <div class="detail__movie--desc-child">
+            <span class="detail__movie-desc-title">Casts</span>
+            <p>Tom Holland, Michael Keaton, Robert Downey Jr., ...</p>
+          </div>
+        </div>
+      </section>
+      <hr class="bg-danger d-block d-md-none">
+    </section>
+    <section class="detail_movie--desc-synopsis">
+      <p class="fw-bold">Synopsis</p>
+      <p class="detail__movie--desc-synopsis--paragraph ">Thrilled by his experience with the Avengers, Peter
+        returns
+        home, where he lives with his
+        Aunt May, under the
+        watchful eye of his new mentor Tony Stark, Peter tries to fall back into his normal daily routine - distracted
+        by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man - but when the Vulture
+        emerges as a new villain, everything that Peter holds most important will be threatened. </p>
+    </section>
+    <section class="detail__schedule">
+      <p class="detail__schedule--title-schedule text-center">Showtimes and Tickets</p>
+      <div class="detail__schedule-form">
+
+        <select class="detail__schedule-input-date">
+          <option>21/07/20</option>
+        </select>
+        <select class="detail__schedule-input-city">
+          <option>Jakarta</option>
+        </select>
+      </div>
+    </section>
+    <section class="schedule__list">
+      <div class="schedule__list-card">
+        <div class="schedule__list--premier">
+          <img src="./assets/img/Sponsor1.png" class="img-fluid" width="100" alt="Premier">
+          <div class="schedule__list--desc-card">
+            <p class="schedule__list--title-premier">Hiflix</p>
+            <p class="schedule__list--address-schedule">
+              Downcare street No. 21,
+              East Purwokerto
+            </p>
+            <div class="schedule__list--time-schedule">
+              <p>08:30am</p>
+              <p>10:30am</p>
+              <p class="schedule__list-title-soldout">12:00pm</p>
+              <p>02:00pm</p>
+              <p class="schedule__list-title-soldout">04:30pm</p>
+              <p>07:00pm</p>
+              <p>08:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule__list--premier_price">
+          <h6>Price</h6>
+          <h6>10$/seat</h6>
+        </div>
+        <div class="schedule__list--premier__button">Book now</div>
+      </div>
+      <div class="schedule__list-card">
+        <div class="schedule__list--premier">
+          <img src="./assets/img/Sponsor2.png" class="img-fluid" width="100" alt="Premier">
+          <div class="schedule__list--desc-card">
+            <p class="schedule__list--title-premier">ebu.id</p>
+            <p class="schedule__list--address-schedule">
+              Downcare street No. 21,
+              East Purwokerto
+            </p>
+            <div class="schedule__list--time-schedule">
+              <p>08:30am</p>
+              <p>10:30am</p>
+              <p class="schedule__list-title-soldout">12:00pm</p>
+              <p>02:00pm</p>
+              <p class="schedule__list-title-soldout">04:30pm</p>
+              <p>07:00pm</p>
+              <p>08:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule__list--premier_price">
+          <h6>Price</h6>
+          <h6>10$/seat</h6>
+        </div>
+        <div class="schedule__list--premier__button">Book now</div>
+      </div>
+      <div class="schedule__list-card">
+        <div class="schedule__list--premier">
+          <img src="./assets/img/Sponsor3.png" class="img-fluid" width="100" alt="Premier">
+          <div class="schedule__list--desc-card">
+            <p class="schedule__list--title-premier">CineOne21</p>
+            <p class="schedule__list--address-schedule">
+              Downcare street No. 21,
+              East Purwokerto
+            </p>
+            <div class="schedule__list--time-schedule">
+              <p>08:30am</p>
+              <p>10:30am</p>
+              <p class="schedule__list-title-soldout">12:00pm</p>
+              <p>02:00pm</p>
+              <p class="schedule__list-title-soldout">04:30pm</p>
+              <p>07:00pm</p>
+              <p>08:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule__list--premier_price">
+          <h6>Price</h6>
+          <h6>10$/seat</h6>
+        </div>
+        <div class="schedule__list--premier__button">Book now</div>
+      </div>
+      <div class="schedule__list-card">
+        <div class="schedule__list--premier">
+          <img src="./assets/img/Sponsor1.png" class="img-fluid" width="100" alt="Premier">
+          <div class="schedule__list--desc-card">
+            <p class="schedule__list--title-premier">Hiflix</p>
+            <p class="schedule__list--address-schedule">
+              Downcare street No. 21,
+              East Purwokerto
+            </p>
+            <div class="schedule__list--time-schedule">
+              <p>08:30am</p>
+              <p>10:30am</p>
+              <p class="schedule__list-title-soldout">12:00pm</p>
+              <p>02:00pm</p>
+              <p class="schedule__list-title-soldout">04:30pm</p>
+              <p>07:00pm</p>
+              <p>08:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule__list--premier_price">
+          <h6>Price</h6>
+          <h6>10$/seat</h6>
+        </div>
+        <div class="schedule__list--premier__button">Book now</div>
+      </div>
+      <div class="schedule__list-card">
+        <div class="schedule__list--premier">
+          <img src="./assets/img/Sponsor2.png" class="img-fluid" width="100" alt="Premier">
+          <div class="schedule__list--desc-card">
+            <p class="schedule__list--title-premier">ebu.id</p>
+            <p class="schedule__list--address-schedule">
+              Downcare street No. 21,
+              East Purwokerto
+            </p>
+            <div class="schedule__list--time-schedule">
+              <p>08:30am</p>
+              <p>10:30am</p>
+              <p class="schedule__list-title-soldout">12:00pm</p>
+              <p>02:00pm</p>
+              <p class="schedule__list-title-soldout">04:30pm</p>
+              <p>07:00pm</p>
+              <p>08:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule__list--premier_price">
+          <h6>Price</h6>
+          <h6>10$/seat</h6>
+        </div>
+        <div class="schedule__list--premier__button">Book now</div>
+      </div>
+      <div class="schedule__list-card">
+        <div class="schedule__list--premier">
+          <img src="./assets/img/Sponsor3.png" class="img-fluid" width="100" alt="Premier">
+          <div class="schedule__list--desc-card">
+            <p class="schedule__list--title-premier">CineOne21</p>
+            <p class="schedule__list--address-schedule">
+              Downcare street No. 21,
+              East Purwokerto
+            </p>
+            <div class="schedule__list--time-schedule">
+              <p>08:30am</p>
+              <p>10:30am</p>
+              <p class="schedule__list-title-soldout">12:00pm</p>
+              <p>02:00pm</p>
+              <p class="schedule__list-title-soldout">04:30pm</p>
+              <p>07:00pm</p>
+              <p>08:30pm</p>
+            </div>
+          </div>
+        </div>
+        <div class="schedule__list--premier_price">
+          <h6>Price</h6>
+          <h6>10$/seat</h6>
+        </div>
+        <div class="schedule__list--premier__button">Book now</div>
+      </div>
+    </section>
+    <section class="schedule__pagination">
+      <a href="#" class="schedule__pagination-button">1</a>
+      <a href="#" class="schedule__pagination-button-previous">2</a>
+      <a href="#" class="schedule__pagination-button-previous">3</a>
+      <a href="#" class="schedule__pagination-button-previous">4</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer__tickitz container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer__tickitz--brand">
+          <img src="assets/img/Logo.svg" alt="Logo">
+          <span class="footer__tickitz--desc">Stop waiting in line. Buy tickets
+            conveniently, watch movies quietly.</span>
+        </div>
+      </div>
+      <div class="footer__tickitz--explore col-md-3">
+        <h6 class="fw-bold">Explore</h6>
+        <div class="footer__tickitz--explore--menu d-flex flex-sm-column-reverse flex-md-column mt-3">
+          <a href="#" class="text-decoration-none footer__tickitz--link lh-lg">
+            Cinemas
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            Movies List
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            My Ticket
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            Notification
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__tickitz--sponsor_mobile">
+          <h6 class="fw-bold">Our Sponsors</h6>
+          <div class="footer__tickitz--sponsor_mobile-column d-flex flex-sm-column flex-md-column mt-3">
+            <a href="#">
+              <img src="assets/img/Sponsor1.png" class="footer__tickitz--sponsor img-fluid mt-2" alt="Sponsor">
+            </a>
+            <a href="#">
+              <img src="assets/img/Sponsor2.png" class="footer__tickitz--sponsor img-fluid mt-2" alt="Sponsor">
+            </a>
+            <a href="#">
+              <img src="assets/img/Sponsor3.png" class="footer__tickitz--sponsor img-fluid mt-3" alt="Sponsor">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__tickitz--title-follow-us_mobile">
+          <h6 class="fw-bold">Follow Us</h6>
+          <div class="d-flex flex-sm-column flex-md-column">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-1.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Twitter">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">tickitz.id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-2.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Facebook">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">Tickitz Cinema id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-3.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Instagram">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">tickitz.id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-4.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Youtube">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">Tickitz Cinema id</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <p class="footer__tickitz--title-copyright mt-4">© 2021 Tickitz. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Details Movie</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navigation__homepage">
+      <div class="navigation__homepage__parent">
+        <div class="navigation__homepage--listmenu">
+          <a href="#" class="mx-4">
+            <img src="assets/img/Logo.svg" class="img-fluid mb-2 navigation__homepage--image " alt="Logo">
+          </a>
+          <a href="#" class="d-none d-md-inline-block mx-5">Home</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Payment</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Profile</a>
+        </div>
+      </div>
+      <div class="navigation__homepage__parent">
+        <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
+        <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
+          aria-controls="navigation__menu"></a>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <select class="navigation__homepage--option-select">
+            <option hidden>Location</option>
+            <option value="Indonesia">Indonesia</option>
+          </select>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <img src="assets/img/Profile.png" class="img-fluid w-50" alt="Profile">
+        </div>
+
+      </div>
+    </nav>
+    <!-- Menu Mobile -->
+    <div class="d-none d-md-block d-md-none collapse p-4 navigation__homepage--mobile position-absolute"
+      id="navigation__menu">
+      <input type="search" class="navigation__homepage--mobile__input" placeholder="Search...">
+      <div class="text-center">
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Home</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Payment</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Profile</a>
+        </div>
+        <p class="text-muted mt-5">&copy; 2021 Tickitz, All Rights Reserved</p>
+      </div>
+
+    </div>
+    <!-- Akhir Menu Mobile -->
+    <!-- Sub Navigation -->
+    <section class="subnav__header d-none d-md-flex">
+      <p>Spider-Man: Homecoming</p>
+      <button>Change Movie</button>
+    </section>
+  </header>
+  <!-- End Navigation -->
+
+  <!-- Description Order Page -->
+  <main class="order__movie">
+    <section class="order__movie-list-seat">
+      <h4 class="order__movie-list-title">Choose Your Seat</h4>
+      <div class="order__movie-list-card">
+        <p>Screen</p>
+        <hr class="order__movie-list-line" />
+      </div>
+      <div class="order__movie-container">
+        <button class="order__movie-container-button">Change your movie</button>
+        <button class="order__movie-container-button-active">Checkout Now</button>
+      </div>
+    </section>
+    <section class="order__movie--info-order">
+      <h4 class="order__movie-info-order_title">Order Info</h4>
+      <div class="order__movie-info-order_card">
+        <div class="order__movie-info-order-parent">
+          <img src="assets/img/Sponsor3.png" class="order__movie-info-order-image-premier img-fluid" alt="CineOne21">
+          <h4>CineOne21 Cinema</h4>
+        </div>
+        <div class="order__movie-info-order-list">
+          <div class="order__movie-info-order-list-child">
+            <p class="order__movie-info-order-title-none">Movie Selected</p>
+            <span class="order__movie-info-order-title-movie">Spider-Man: Homecoming</span>
+          </div>
+          <div class="order__movie-info-order-list-child">
+            <p>Tuesday, 07 July 2021</p>
+            <span>02:00pm</span>
+          </div>
+          <div class="order__movie-info-order-list-child">
+            <p>One ticket price</p>
+            <span>$10</span>
+          </div>
+          <div class="order__movie-info-order-list-child">
+            <p>Seat Choosed</p>
+            <span>C4,C5,C6</span>
+          </div>
+        </div>
+        <hr class="order__movie-info-order-line">
+        <div class="order__movie-indo-order-total-payment">
+          <h3>Total Payment</h3>
+          <p>$30</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End -->
+
+  <!-- Footer -->
+  <footer class="footer__tickitz container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="footer__tickitz--brand">
+          <img src="assets/img/Logo.svg" alt="Logo">
+          <span class="footer__tickitz--desc">Stop waiting in line. Buy tickets
+            conveniently, watch movies quietly.</span>
+        </div>
+      </div>
+      <div class="footer__tickitz--explore col-md-3">
+        <h6 class="fw-bold">Explore</h6>
+        <div class="footer__tickitz--explore--menu d-flex flex-sm-column-reverse flex-md-column mt-3">
+          <a href="#" class="text-decoration-none footer__tickitz--link lh-lg">
+            Cinemas
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            Movies List
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            My Ticket
+          </a>
+          <a href="#" class="text-decoration-none footer__tickitz--link">
+            Notification
+          </a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__tickitz--sponsor_mobile">
+          <h6 class="fw-bold">Our Sponsors</h6>
+          <div class="footer__tickitz--sponsor_mobile-column d-flex flex-sm-column flex-md-column mt-3">
+            <a href="#">
+              <img src="assets/img/Sponsor1.png" class="footer__tickitz--sponsor img-fluid mt-2" alt="Sponsor">
+            </a>
+            <a href="#">
+              <img src="assets/img/Sponsor2.png" class="footer__tickitz--sponsor img-fluid mt-2" alt="Sponsor">
+            </a>
+            <a href="#">
+              <img src="assets/img/Sponsor3.png" class="footer__tickitz--sponsor img-fluid mt-3" alt="Sponsor">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="footer__tickitz--title-follow-us_mobile">
+          <h6 class="fw-bold">Follow Us</h6>
+          <div class="d-flex flex-sm-column flex-md-column">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-1.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Twitter">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">tickitz.id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-2.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Facebook">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">Tickitz Cinema id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-3.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Instagram">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">tickitz.id</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <img src="assets/img/Icon-4.svg" class="img-fluid footer__tickitz--icon-link" width="20" alt="Youtube">
+              <p class="footer__tickitz--title-follow-us mt-2 mx-4">Tickitz Cinema id</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <p class="footer__tickitz--title-copyright mt-4">© 2021 Tickitz. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
