@@ -12,9 +12,6 @@
   <!-- CSS Style -->
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <!-- CDN BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Tickitz</title>
 </head>
 
@@ -25,7 +22,7 @@
     <nav class="navigation__homepage">
       <div class="navigation__homepage__parent">
         <div class="navigation__homepage--listmenu">
-          <a href="#" class="mx-4">
+          <a href="Home.html" class="mx-4">
             <img src="assets/img/Logo.svg" class="img-fluid mb-2 navigation__homepage--image " alt="Logo">
           </a>
           <a href="#" class="d-none d-md-inline-block mx-5">Home</a>
@@ -92,7 +89,7 @@
     <div class="d-flex justify-content-between align-items-center">
       <div>
         <h4 class="fw-bold title__nowshowing">Now Showing</h4>
-        <hr class="mx-auto w-75 d-none d-md-block" />
+        <hr class="movies__list--line mx-auto d-none d-md-block" />
       </div>
       <div>
         <a href="#" class="fw-bold allmovie__nowshowing">view all</a>
@@ -101,74 +98,106 @@
     <!-- Akhir Menu Movies -->
 
     <!-- List Movies -->
-    <section>
+    <section class="mt-4">
       <div class="row flex-nowrap" style="overflow-x:auto;">
-        <div class="col-sm-6 col-md-2 mx-2">
-          <img src="assets/img/movies3.png" class="movies__list-image img-fluid" alt="Movies">
+        <div class="movies__list--card col-sm-6 col-md-2 mx-3">
+          <a href="Detail-movie.html" class="text-decoration-none text-dark"><img src="assets/img/movies3.png"
+              class="movies__list-image img-fluid" alt="Movies">
+            <div class="movies__list--card-hover text-center">
+              <h2>Spider-Man: Homecoming</h2>
+              <p>Acion, Adventure, Sci-FI</p>
+              <button class="movies__list--card-hover-btn-details">Details</button>
+              <button class="movies__list--card-hover-btn">Book Now</button>
+            </div>
+          </a>
         </div>
-        <div class="col-sm-6 col-md-2 mx-2">
+        <div class="movies__list--card  col-sm-6 col-md-2 mx-3">
           <img src="assets/img/movies2.png" class="movies__list-image img-fluid" alt="Movies">
+          <div class="movies__list--card-hover text-center">
+            <h2>Spider-Man: Homecoming</h2>
+            <p>Acion, Adventure, Sci-FI</p>
+            <button class="movies__list--card-hover-btn-details">Details</button>
+            <button class="movies__list--card-hover-btn">Book Now</button>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 mx-2">
+        <div class="movies__list--card  col-sm-6 col-md-2 mx-3">
           <img src="assets/img/movies1.png" class="movies__list-image img-fluid" alt="Movies">
+          <div class="movies__list--card-hover text-center">
+            <h2>Spider-Man: Homecoming</h2>
+            <p>Acion, Adventure, Sci-FI</p>
+            <button class="movies__list--card-hover-btn-details">Details</button>
+            <button class="movies__list--card-hover-btn">Book Now</button>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 mx-2">
+        <div class="movies__list--card  col-sm-6 col-md-2 mx-3">
           <img src="assets/img/movies4.png" class="movies__list-image img-fluid" alt="Movies">
+          <div class="movies__list--card-hover text-center">
+            <h2>Spider-Man: Homecoming</h2>
+            <p>Acion, Adventure, Sci-FI</p>
+            <button class="movies__list--card-hover-btn-details">Details</button>
+            <button class="movies__list--card-hover-btn">Book Now</button>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 mx-2">
+        <div class="movies__list--card  col-sm-6 col-md-2 mx-3">
           <img src="assets/img/movies5.png" class="movies__list-image img-fluid" alt="Movies">
+          <div class="movies__list--card-hover text-center">
+            <h2>Spider-Man: Homecoming</h2>
+            <p>Acion, Adventure, Sci-FI</p>
+            <button class="movies__list--card-hover-btn-details">Details</button>
+            <button class="movies__list--card-hover-btn">Book Now</button>
+          </div>
         </div>
       </div>
     </section>
     <!-- Akhir List Movies -->
 
+
     <!-- Upcomming movies -->
-    <section class="upcomming__movies">
+    <section class="upcomming__movies position-relative">
       <!-- DATE UPCOMMING MOVIES -->
       <div class="d-flex justify-content-between align-items-center">
         <div>
-          <h4 class="fw-bold title__nowshowing">Now Showing</h4>
-          <hr class="mx-auto w-75 d-none d-md-block" />
+          <h4 class="fw-bold title__nowshowing mx-3">Upcomming Movies</h4>
         </div>
         <div>
           <a href="#" class="fw-bold allmovie__nowshowing">view all</a>
         </div>
       </div>
-      <div class="row flex-nowrap" style="overflow-x: auto;">
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+      <div class="row flex-nowrap upcomming__movies--buton-parent" style="overflow-x: auto;">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button-active">September</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Oktober</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">November</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Desember</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Januari</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Februari</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Maret</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">April</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Mei</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Juni</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Juli</button>
         </div>
-        <div class="col-4 col-md-1 mx-md-0 mx-3">
+        <div class="col-4 col-md-1">
           <button class="btn upcomming__movies--button">Agustus</button>
         </div>
       </div>
@@ -221,13 +250,9 @@
       <span class="join__tickitz--title">Be the vanguard of the</span>
       <h1 class="join__tickitz--subtitle">Moviegoers</h1>
 
-      <div class="d-flex justify-content-center align-items-center mt-5">
-        <div>
-          <input type="text" class="join__tickitz--input" placeholder="Type your email">
-        </div>
-        <div>
-          <button class="mx-2 join__tickitz--button">Join Now</button>
-        </div>
+      <div class="d-block d-md-flex justify-content-center align-items-center mt-5">
+        <input type="text" class="join__tickitz--input" placeholder="Type your email">
+        <button class="join__tickitz--button">Join Now</button>
       </div>
 
       <p class="mt-5 text-muted">By joining you as a Tickitz member, <br>

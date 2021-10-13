@@ -24,7 +24,7 @@
     <nav class="navigation__homepage">
       <div class="navigation__homepage__parent">
         <div class="navigation__homepage--listmenu">
-          <a href="#" class="mx-4">
+          <a href="Home.html" class="mx-4">
             <img src="assets/img/Logo.svg" class="img-fluid mb-2 navigation__homepage--image " alt="Logo">
           </a>
           <a href="#" class="d-none d-md-inline-block mx-5">Home</a>
@@ -51,8 +51,6 @@
 
       </div>
     </nav>
-
-
     <!-- Menu Mobile -->
     <div class="d-none d-md-block d-md-none collapse p-4 navigation__homepage--mobile position-absolute"
       id="navigation__menu">
@@ -101,7 +99,7 @@
           </div>
         </div>
       </section>
-      <hr class="bg-danger d-block d-md-none">
+      <hr class="detail__movie--line d-block d-md-none">
     </section>
     <section class="detail_movie--desc-synopsis">
       <p class="fw-bold">Synopsis</p>
@@ -116,12 +114,11 @@
     <section class="detail__schedule">
       <p class="detail__schedule--title-schedule text-center">Showtimes and Tickets</p>
       <div class="detail__schedule-form">
-
         <select class="detail__schedule-input-date">
-          <option>21/07/20</option>
+          <option hidden>Set a Date</option>
         </select>
         <select class="detail__schedule-input-city">
-          <option>Jakarta</option>
+          <option hidden>Set a City</option>
         </select>
       </div>
     </section>
@@ -176,7 +173,11 @@
           <h6>Price</h6>
           <h6>10$/seat</h6>
         </div>
-        <div class="schedule__list--premier__button">Book now</div>
+        <a href="Order-movie.html" class="text-white text-decoration-none">
+          <div class="schedule__list--premier__button">
+            Book now
+          </div>
+        </a>
       </div>
       <div class="schedule__list-card">
         <div class="schedule__list--premier">

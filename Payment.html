@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS BOOTSTRAP -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- CDN BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Details Movie</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navigation__homepage">
+      <div class="navigation__homepage__parent">
+        <div class="navigation__homepage--listmenu">
+          <a href="Home.html" class="mx-4">
+            <img src="assets/img/Logo.svg" class="img-fluid mb-2 navigation__homepage--image " alt="Logo">
+          </a>
+          <a href="#" class="d-none d-md-inline-block mx-5">Home</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Payment</a>
+          <a href="#" class="mx-4 d-none d-md-inline-block">Profile</a>
+        </div>
+      </div>
+      <div class="navigation__homepage__parent">
+        <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
+        <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
+          aria-controls="navigation__menu"></a>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <select class="navigation__homepage--option-select">
+            <option hidden>Location</option>
+            <option value="Indonesia">Indonesia</option>
+          </select>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <i class="bi bi-search"></i>
+        </div>
+        <div class="mx-3 d-none d-md-inline-flex">
+          <img src="assets/img/Profile.png" class="img-fluid w-50" alt="Profile">
+        </div>
+
+      </div>
+    </nav>
+    <!-- Menu Mobile -->
+    <div class="d-none d-md-block d-md-none collapse p-4 navigation__homepage--mobile position-absolute"
+      id="navigation__menu">
+      <input type="search" class="navigation__homepage--mobile__input" placeholder="Search...">
+      <div class="text-center">
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Home</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Payment</a>
+        </div>
+        <div class="navigation__homepage--mobile-parent-link">
+          <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Profile</a>
+        </div>
+        <p class="text-muted mt-5">&copy; 2021 Tickitz, All Rights Reserved</p>
+      </div>
+
+    </div>
+    <!-- Akhir Menu Mobile -->
+  </header>
+  <!-- End Navigation -->
+
+  <!-- Payment Content -->
+  <main class="payment__main">
+    <section class="payment__main-info">
+      <h4 class="payment__main-info-title">Payment Info</h4>
+      <div class="payment__main-info-card">
+        <div class="payment__main-info-card-child">
+          <p>Date & time</p>
+          <span>Tuesday, 07 July 2020 at 02:00pm</span>
+        </div>
+        <hr class="payment__main-info-card-line" />
+        <div class="payment__main-info-card-child">
+          <p>Movie title</p>
+          <span>Spider-Man: Homecoming</span>
+        </div>
+        <hr class="payment__main-info-card-line" />
+        <div class="payment__main-info-card-child">
+          <p>Cinema name</p>
+          <span>CineOne21 Cinema</span>
+        </div>
+        <hr class="payment__main-info-card-line" />
+        <div class="payment__main-info-card-child">
+          <p>Number of tickets</p>
+          <span>3 pieces</span>
+        </div>
+        <hr class="payment__main-info-card-line" />
+        <div class="payment__main-info-card-child">
+          <p>Total payment</p>
+          <span>$30,00</span>
+        </div>
+      </div>
+      <div class="payment__main-method">
+        <h3 class="payment__main-method-title">Choose a Payment Method</h3>
+        <div class="payment__main-method-card">
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/GooglePay.png" class="payment__main-method-image img-fluid" alt="GooglePay">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/Visa.png" class="payment__main-method-image img-fluid" alt="Visa">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/Gopay.png" class="payment__main-method-image img-fluid" alt="Gopay">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/GooglePay.png" class="payment__main-method-image img-fluid" alt="Paypal">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/DANA.png" class="payment__main-method-image img-fluid" alt="DANA">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/BCA.png" class="payment__main-method-image img-fluid" alt="BCA">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/DANA.png" class="payment__main-method-image img-fluid" alt="BRI">
+          </div>
+          <div class="payment__main-method-card-child">
+            <img src="assets/img/OVO.png" class="payment__main-method-image img-fluid" alt="OVO">
+          </div>
+          <div class="payment__main-optional-payment">
+            <hr>
+            <p>Or</p>
+            <hr>
+          </div>
+          <div class="mx-auto mt-4">
+            <h3 class="payment__main-optional-title">Pay via cash. <span class="payment__main-optional-subtitle">See
+                how
+                it
+                work</span></h3>
+          </div>
+        </div>
+        <div class="payment__main-method-main-button">
+          <button class="payment__main-method-button">
+            Prvious step
+          </button>
+          <button class="payment__main-method-button-active">
+            Pay your order
+          </button>
+        </div>
+      </div>
+
+    </section>
+    <section class="personal__main-info">
+      <h4 class="personal__main-info-title">Personal Info</h4>
+      <div class="personal__main-info-card">
+        <div class="personal__main-info-card-child">
+          <p>Full Name</p>
+          <input type="text" class="personal__main-info-card-input" placeholder="Jonas El Rodriguez">
+        </div>
+        <div class="personal__main-info-card-child">
+          <p>Email</p>
+          <input type="email" class="personal__main-info-card-input" placeholder="jonasrodri123@gmail.com">
+        </div>
+        <div class="personal__main-info-card-child">
+          <p>Phone Number</p>
+          <input type="text" class="personal__main-info-card-input" placeholder="81445687121">
+        </div>
+        <div class="personal__main-info-card-alert">
+          <img src="assets/img/Icon-Warning.svg" class="img-fluid" alt="Warning Alert">
+          <span>Fill your data correctly.</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End Payment Content -->
+</body>
+
+</html>
