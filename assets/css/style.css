@@ -169,11 +169,9 @@
 	height: 40px;
 }
 .hero__spacing--column-left {
-	/* padding: 0px 36px; */
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	/* align-items: center; */
 }
 .hero__title {
 	font-size: 1rem;
@@ -913,6 +911,14 @@ span {
 	}
 	.allmovie__nowshowing {
 		text-decoration: none;
+	}
+	.hero__spacing--column-left {
+		margin: 30px 0px;
+		padding: 36px;
+	}
+	.hero__image--banner {
+		margin: 0px 0px 120px 0px;
+		width: 100%;
 	}
 	main {
 		width: 100%;

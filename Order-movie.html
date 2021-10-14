@@ -33,7 +33,9 @@
         </div>
       </div>
       <div class="navigation__homepage__parent">
-        <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
+        <button class="navigation__homepage-button-icon-mobile" onclick="menuNavigation()">
+          <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
+        </button>
         <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
           aria-controls="navigation__menu"></a>
         <div class="mx-3 d-none d-md-inline-flex">
@@ -52,8 +54,7 @@
       </div>
     </nav>
     <!-- Menu Mobile -->
-    <div class="d-none d-md-block d-md-none collapse p-4 navigation__homepage--mobile position-absolute"
-      id="navigation__menu">
+    <div class="navigation__homepage--mobile d-md-none p-4" id="menu">
       <input type="search" class="navigation__homepage--mobile__input" placeholder="Search...">
       <div class="text-center">
         <div class="navigation__homepage--mobile-parent-link">
@@ -70,11 +71,6 @@
 
     </div>
     <!-- Akhir Menu Mobile -->
-    <!-- Sub Navigation -->
-    <section class="subnav__header d-none d-md-flex">
-      <p>Spider-Man: Homecoming</p>
-      <button>Change Movie</button>
-    </section>
   </header>
   <!-- End Navigation -->
 
@@ -198,6 +194,21 @@
       <p class="footer__tickitz--title-copyright mt-4">© 2021 Tickitz. All Rights Reserved.</p>
     </div>
   </footer>
+
+  <script>
+    const menu = document.getElementById('menu');
+
+    function menuNavigation() {
+      console.log(menu)
+      if (menu.style.display === "none") {
+        menu.style.display = "block";
+      } else if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+  </script>
 </body>
 
 </html>
