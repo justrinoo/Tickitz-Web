@@ -129,7 +129,7 @@
 	text-decoration: underline;
 }
 .navigation__homepage {
-	padding: 20px 74px;
+	padding: 28px 74px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -225,12 +225,8 @@
 }
 
 .movies__list--card-hover {
-	position: absolute;
+	background-color: #ffffff;
 	display: none;
-	height: 210px;
-	border: 1px solid #dedede;
-	border-radius: 0px 0px 24px 24px;
-	margin: 4px -35px;
 }
 .movies__list--card:hover .movies__list--card-hover {
 	display: block;
@@ -249,6 +245,7 @@
 	margin: 8px;
 	border: none;
 	width: 100%;
+	cursor: pointer;
 	padding: 3px 0px;
 	color: #5f2eea;
 	border: 1px solid #5f2eea;
@@ -353,6 +350,7 @@ span {
 	color: #414141;
 }
 .navigation__homepage--mobile {
+	display: none;
 	width: 90%;
 	height: 250px;
 }
@@ -838,6 +836,22 @@ span {
 	width: 40%;
 	padding: 12px;
 }
+.payment__main-method-button-active-mobile {
+	background: #5f2eea;
+	display: none;
+	border: none;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 16px;
+	width: 40%;
+	padding: 12px;
+}
+.navigation__homepage-sub-mobile {
+	display: none;
+}
+.navigation__homepage-button-icon-mobile {
+	display: none;
+}
 
 /* End Payment page */
 @media (max-width: 575.98px) {
@@ -877,7 +891,7 @@ span {
 		width: 100%;
 	}
 	.navigation__homepage {
-		padding: 24px;
+		padding: 24px 16px;
 		background-color: #ffffff;
 		box-shadow: 0px 4px 16px rgba(186, 186, 186, 0.08);
 	}
@@ -885,6 +899,11 @@ span {
 		background-color: #ffffff;
 		height: 300px;
 		width: 100%;
+	}
+	.navigation__homepage-button-icon-mobile {
+		display: block;
+		border: none;
+		background-color: transparent;
 	}
 	.navigation__homepage--image {
 		width: 80px;
@@ -1083,18 +1102,97 @@ span {
 	.order__movie-info-order-list-child {
 		margin: 16px 0px;
 	}
+
+	/* Payment Page Mobile */
+	.payment__main {
+		padding: 60px 12px;
+		display: block;
+	}
+	.payment__main-info-title {
+		display: none;
+	}
+	.payment__main-info-card {
+		display: none;
+	}
+	.payment__main-info {
+		width: 100%;
+	}
+	.payment__main-method {
+		width: 100%;
+	}
+	.payment__main-method-card {
+		padding: 12px;
+		width: 100%;
+	}
+	.payment__main-method-card-child {
+		padding: 9px 18px;
+		flex: 1 0 24%;
+	}
+	.payment__main-method-card-child:nth-last-child(7) {
+		display: none;
+	}
+	.payment__main-method-card-child:nth-last-child(8) {
+		display: none;
+	}
+	.personal__main-info {
+		margin: 40px 0px;
+		width: 100%;
+		position: relative;
+	}
+	.personal__main-info-card-input {
+		padding: 12px 36px;
+	}
+	.personal__main-info-card-alert {
+		padding: 12px 15px;
+	}
+	.payment__main-method-button {
+		display: none;
+	}
+	.payment__main-method-button-active {
+		width: 94%;
+		display: none;
+	}
+	.payment__main-method-button-active-mobile {
+		width: 94%;
+		margin: 40px 0px;
+		display: block;
+	}
+	.payment__main-method-title {
+		margin: 0px;
+	}
+	.navigation__homepage-sub-mobile {
+		padding: 4px 36px;
+		background-color: #ffffff;
+		display: flex;
+		justify-content: space-between;
+	}
+	.navigation__homepage-sub-mobile span {
+		color: #14142b;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.navigation__homepage-sub-mobile p {
+		color: #aaaaaa;
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 767.98px) {
 	.navigation__homepage--mobile {
 		background-color: #ffffff;
-		height: 300px;
+		height: 370px;
 		width: 100%;
+		box-shadow: 0px 4px 16px rgba(186, 186, 186, 0.08);
 	}
 }
 
 @media (max-width: 991.98px) {
 	.navigation__homepage--mobile {
 		display: none;
+	}
+	.navigation__homepage-button-icon-mobile {
+		display: block;
+		border: none;
+		background-color: transparent;
 	}
 }
