@@ -15,6 +15,7 @@
 
   <!-- CSS Style -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/detail-movie.css">
   <title>Details Movie</title>
 </head>
 
@@ -33,7 +34,7 @@
         </div>
       </div>
       <div class="navigation__homepage__parent">
-        <button class="navigation__homepage-button-icon-mobile" onclick="menuNavigation()">
+        <button class="navigation__homepage-button-icon-mobile d-md-none" onclick="menuNavigation()">
           <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
         </button>
         <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
@@ -123,166 +124,362 @@
         </select>
       </div>
     </section>
-    <section class="schedule__list">
-      <div class="schedule__list-card">
-        <div class="schedule__list--premier">
-          <img src="./assets/img/Sponsor1.png" class="img-fluid" width="100" alt="Premier">
-          <div class="schedule__list--desc-card">
-            <p class="schedule__list--title-premier">Hiflix</p>
-            <p class="schedule__list--address-schedule">
-              Downcare street No. 21,
-              East Purwokerto
-            </p>
-            <div class="schedule__list--time-schedule">
-              <p>08:30am</p>
-              <p>10:30am</p>
-              <p class="schedule__list-title-soldout">12:00pm</p>
-              <p>02:00pm</p>
-              <p class="schedule__list-title-soldout">04:30pm</p>
-              <p>07:00pm</p>
-              <p>08:30pm</p>
+    <section class="detail__list_schedule">
+      <div class="detail__list_schedule-container">
+        <div class="detail__list_schedule-card position-relative">
+          <div class="detail__list_schedule-card-body">
+            <img src="assets/img/Sponsor1.png" class="detail__list_schedule-card-image img-fluid" alt="Hiflix">
+            <div class="detail__list_schedule-card-body-title">
+              <h5>Hiflix</h5>
+              <span>Whatever street No.12, South Purwokerto</span>
             </div>
           </div>
+          <hr class="position-absolute line-detail">
+          <div class="detail__list_schedule-card-body-time">
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                10:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                12:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                02:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                04:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                07:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                09:00
+              </a>
+            </span>
+          </div>
+          <div class="detail__list_schedule-card-price">
+            <h5>Price</h5>
+            <h5>$10.00/seat</h5>
+          </div>
+          <a href="Order-movie.html" class="detail__list_schedule-card-button">
+            Book Now
+          </a>
         </div>
-        <div class="schedule__list--premier_price">
-          <h6>Price</h6>
-          <h6>10$/seat</h6>
-        </div>
-        <div class="schedule__list--premier__button">Book now</div>
-      </div>
-      <div class="schedule__list-card">
-        <div class="schedule__list--premier">
-          <img src="./assets/img/Sponsor2.png" class="img-fluid" width="100" alt="Premier">
-          <div class="schedule__list--desc-card">
-            <p class="schedule__list--title-premier">ebu.id</p>
-            <p class="schedule__list--address-schedule">
-              Downcare street No. 21,
-              East Purwokerto
-            </p>
-            <div class="schedule__list--time-schedule">
-              <p>08:30am</p>
-              <p>10:30am</p>
-              <p class="schedule__list-title-soldout">12:00pm</p>
-              <p>02:00pm</p>
-              <p class="schedule__list-title-soldout">04:30pm</p>
-              <p>07:00pm</p>
-              <p>08:30pm</p>
+        <div class="detail__list_schedule-card position-relative">
+          <div class="detail__list_schedule-card-body">
+            <img src="assets/img/Sponsor2.png" class="detail__list_schedule-card-image img-fluid" alt="Ebu.id">
+            <div class="detail__list_schedule-card-body-title">
+              <h5>ebu.id</h5>
+              <span>Whatever street No.12, South Purwokerto</span>
             </div>
           </div>
-        </div>
-        <div class="schedule__list--premier_price">
-          <h6>Price</h6>
-          <h6>10$/seat</h6>
-        </div>
-        <a href="Order-movie.html" class="text-white text-decoration-none">
-          <div class="schedule__list--premier__button">
-            Book now
+          <hr class="position-absolute line-detail">
+          <div class="detail__list_schedule-card-body-time">
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                10:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                12:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                02:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                04:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                07:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                09:00
+              </a>
+            </span>
           </div>
-        </a>
-      </div>
-      <div class="schedule__list-card">
-        <div class="schedule__list--premier">
-          <img src="./assets/img/Sponsor3.png" class="img-fluid" width="100" alt="Premier">
-          <div class="schedule__list--desc-card">
-            <p class="schedule__list--title-premier">CineOne21</p>
-            <p class="schedule__list--address-schedule">
-              Downcare street No. 21,
-              East Purwokerto
-            </p>
-            <div class="schedule__list--time-schedule">
-              <p>08:30am</p>
-              <p>10:30am</p>
-              <p class="schedule__list-title-soldout">12:00pm</p>
-              <p>02:00pm</p>
-              <p class="schedule__list-title-soldout">04:30pm</p>
-              <p>07:00pm</p>
-              <p>08:30pm</p>
+          <div class="detail__list_schedule-card-price">
+            <h5>Price</h5>
+            <h5>$10.00/seat</h5>
+          </div>
+          <a href="Order-movie.html" class="detail__list_schedule-card-button">
+            Book Now
+          </a>
+        </div>
+        <div class="detail__list_schedule-card position-relative">
+          <div class="detail__list_schedule-card-body">
+            <img src="assets/img/Sponsor3.png" class="detail__list_schedule-card-image img-fluid" alt="CineOne21">
+            <div class="detail__list_schedule-card-body-title">
+              <h5>CineOne21</h5>
+              <span>Whatever street No.12, South Purwokerto</span>
             </div>
           </div>
+          <hr class="position-absolute line-detail">
+          <div class="detail__list_schedule-card-body-time">
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                10:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                12:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                02:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                04:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                07:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                09:00
+              </a>
+            </span>
+          </div>
+          <div class="detail__list_schedule-card-price">
+            <h5>Price</h5>
+            <h5>$10.00/seat</h5>
+          </div>
+          <a href="Order-movie.html" class="detail__list_schedule-card-button">
+            Book Now
+          </a>
         </div>
-        <div class="schedule__list--premier_price">
-          <h6>Price</h6>
-          <h6>10$/seat</h6>
-        </div>
-        <div class="schedule__list--premier__button">Book now</div>
-      </div>
-      <div class="schedule__list-card">
-        <div class="schedule__list--premier">
-          <img src="./assets/img/Sponsor1.png" class="img-fluid" width="100" alt="Premier">
-          <div class="schedule__list--desc-card">
-            <p class="schedule__list--title-premier">Hiflix</p>
-            <p class="schedule__list--address-schedule">
-              Downcare street No. 21,
-              East Purwokerto
-            </p>
-            <div class="schedule__list--time-schedule">
-              <p>08:30am</p>
-              <p>10:30am</p>
-              <p class="schedule__list-title-soldout">12:00pm</p>
-              <p>02:00pm</p>
-              <p class="schedule__list-title-soldout">04:30pm</p>
-              <p>07:00pm</p>
-              <p>08:30pm</p>
+        <div class="detail__list_schedule-card position-relative">
+          <div class="detail__list_schedule-card-body">
+            <img src="assets/img/Sponsor1.png" class="detail__list_schedule-card-image img-fluid" alt="Hiflix">
+            <div class="detail__list_schedule-card-body-title">
+              <h5>Hiflix</h5>
+              <span>Whatever street No.12, South Purwokerto</span>
             </div>
           </div>
+          <hr class="position-absolute line-detail">
+          <div class="detail__list_schedule-card-body-time">
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                10:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                12:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                02:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                04:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                07:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                09:00
+              </a>
+            </span>
+          </div>
+          <div class="detail__list_schedule-card-price">
+            <h5>Price</h5>
+            <h5>$10.00/seat</h5>
+          </div>
+          <a href="Order-movie.html" class="detail__list_schedule-card-button">
+            Book Now
+          </a>
         </div>
-        <div class="schedule__list--premier_price">
-          <h6>Price</h6>
-          <h6>10$/seat</h6>
-        </div>
-        <div class="schedule__list--premier__button">Book now</div>
-      </div>
-      <div class="schedule__list-card">
-        <div class="schedule__list--premier">
-          <img src="./assets/img/Sponsor2.png" class="img-fluid" width="100" alt="Premier">
-          <div class="schedule__list--desc-card">
-            <p class="schedule__list--title-premier">ebu.id</p>
-            <p class="schedule__list--address-schedule">
-              Downcare street No. 21,
-              East Purwokerto
-            </p>
-            <div class="schedule__list--time-schedule">
-              <p>08:30am</p>
-              <p>10:30am</p>
-              <p class="schedule__list-title-soldout">12:00pm</p>
-              <p>02:00pm</p>
-              <p class="schedule__list-title-soldout">04:30pm</p>
-              <p>07:00pm</p>
-              <p>08:30pm</p>
+        <div class="detail__list_schedule-card position-relative">
+          <div class="detail__list_schedule-card-body">
+            <img src="assets/img/Sponsor2.png" class="detail__list_schedule-card-image img-fluid" alt="Ebu.id">
+            <div class="detail__list_schedule-card-body-title">
+              <h5>ebu.id</h5>
+              <span>Whatever street No.12, South Purwokerto</span>
             </div>
           </div>
+          <hr class="position-absolute line-detail">
+          <div class="detail__list_schedule-card-body-time">
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                10:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                12:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                02:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                04:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                07:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                09:00
+              </a>
+            </span>
+          </div>
+          <div class="detail__list_schedule-card-price">
+            <h5>Price</h5>
+            <h5>$10.00/seat</h5>
+          </div>
+          <a href="Order-movie.html" class="detail__list_schedule-card-button">
+            Book Now
+          </a>
         </div>
-        <div class="schedule__list--premier_price">
-          <h6>Price</h6>
-          <h6>10$/seat</h6>
-        </div>
-        <div class="schedule__list--premier__button">Book now</div>
-      </div>
-      <div class="schedule__list-card">
-        <div class="schedule__list--premier">
-          <img src="./assets/img/Sponsor3.png" class="img-fluid" width="100" alt="Premier">
-          <div class="schedule__list--desc-card">
-            <p class="schedule__list--title-premier">CineOne21</p>
-            <p class="schedule__list--address-schedule">
-              Downcare street No. 21,
-              East Purwokerto
-            </p>
-            <div class="schedule__list--time-schedule">
-              <p>08:30am</p>
-              <p>10:30am</p>
-              <p class="schedule__list-title-soldout">12:00pm</p>
-              <p>02:00pm</p>
-              <p class="schedule__list-title-soldout">04:30pm</p>
-              <p>07:00pm</p>
-              <p>08:30pm</p>
+        <div class="detail__list_schedule-card position-relative">
+          <div class="detail__list_schedule-card-body">
+            <img src="assets/img/Sponsor3.png" class="detail__list_schedule-card-image img-fluid" alt="CineOne21">
+            <div class="detail__list_schedule-card-body-title">
+              <h5>CineOne21</h5>
+              <span>Whatever street No.12, South Purwokerto</span>
             </div>
           </div>
+          <hr class="position-absolute line-detail">
+          <div class="detail__list_schedule-card-body-time">
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                10:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                12:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                02:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                04:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                07:00
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                08:30
+              </a>
+            </span>
+            <span>
+              <a href="#" class="text-decoration-none text-reset">
+                09:00
+              </a>
+            </span>
+          </div>
+          <div class="detail__list_schedule-card-price">
+            <h5>Price</h5>
+            <h5>$10.00/seat</h5>
+          </div>
+          <a href="Order-movie.html" class="detail__list_schedule-card-button">
+            Book Now
+          </a>
         </div>
-        <div class="schedule__list--premier_price">
-          <h6>Price</h6>
-          <h6>10$/seat</h6>
-        </div>
-        <div class="schedule__list--premier__button">Book now</div>
       </div>
     </section>
     <section class="schedule__pagination">

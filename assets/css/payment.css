@@ -1,0 +1,228 @@
+/* Payment page */
+.payment__main {
+	padding: 60px 92px;
+	background-color: #f5f6f8;
+	display: flex;
+}
+.payment__main-info {
+	width: 70%;
+}
+.payment__main-info-title {
+	font-size: 24px;
+	font-weight: 700;
+	color: #14142b;
+}
+.personal__main-info-title {
+	font-size: 24px;
+	font-weight: 700;
+	color: #14142b;
+}
+.payment__main-info-card {
+	margin: 25px 0px;
+	background: #ffffff;
+	border-radius: 24px;
+	padding: 48px 40px;
+}
+.payment__main-info-card-child {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+.payment__main-info-card-child p {
+	color: #6b6b6b;
+	font-size: 20px;
+}
+.payment__main-info-card-child span {
+	color: #000000;
+	font-size: 20px;
+}
+.payment__main-info-card-line {
+	opacity: 1;
+	margin: 0;
+	color: #e6e6e6;
+}
+.personal__main-info {
+	padding: 12px;
+	width: 30%;
+}
+.personal__main-info-card {
+	padding: 47px 40px;
+	background: #ffffff;
+	border-radius: 24px;
+}
+.personal__main-info-card-input {
+	width: 100%;
+	border: 1px solid #dedede;
+	border-radius: 16px;
+	padding: 14px 32px;
+	font-weight: 600;
+	color: #4e4b66;
+}
+.personal__main-info-card-child {
+	margin: 8px 0px 12px 0px;
+}
+.personal__main-info-card-alert {
+	display: flex;
+	margin-top: 30px;
+	background: rgba(244, 183, 64, 0.3);
+	border-radius: 16px;
+	padding: 14px 36px;
+}
+.personal__main-info-card-alert span {
+	margin: 3px 15px;
+	color: #6e7191;
+	font-weight: 400;
+	font-size: 16px;
+}
+.payment__main-method-title {
+	margin: 50px 0px 0px 0px;
+	font-weight: bold;
+	color: #14142b;
+}
+.payment__main-method-card {
+	background: #ffffff;
+	border-radius: 24px;
+	padding: 48px 70px;
+	display: flex;
+	margin: 30px 0px;
+	flex-wrap: wrap;
+}
+.payment__main-method-card-child {
+	border: 2px solid #dedede;
+	border-radius: 16px;
+	flex: 1 0 21%;
+	margin: 15px 5px;
+	padding: 18px 12px;
+	text-align: center;
+}
+.payment__main-optional-payment {
+	display: flex;
+	width: 100%;
+}
+.payment__main-optional-payment hr {
+	padding: 0.5px;
+	height: 3px;
+	border: 0.5px solid #dedede;
+	width: 100%;
+}
+.payment__main-optional-payment p {
+	font-size: 12px;
+	font-weight: bold;
+	color: #aaaaaa;
+	margin: 8px 20px;
+}
+.payment__main-method-image {
+	width: 50%;
+	object-fit: contain;
+	height: 20px;
+}
+.payment__main-method-image-big-size {
+	height: 10px;
+	margin: 0px 45px;
+}
+.payment__main-optional-title {
+	font-size: 16px;
+	font-weight: 600;
+	opacity: 0.8;
+}
+.payment__main-optional-title span {
+	color: #5f2eea;
+	font-weight: bold;
+	display: inline-block;
+}
+.payment__main-method-main-button {
+	display: flex;
+	justify-content: space-between;
+}
+.payment__main-method-button {
+	border: 2px solid #5f2eea;
+	border-radius: 16px;
+	color: #5f2eea;
+	font-weight: bold;
+	width: 40%;
+	padding: 12px;
+}
+.payment__main-method-button-active {
+	background: #5f2eea;
+	border: none;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 16px;
+	width: 40%;
+	padding: 12px;
+}
+.payment__main-method-button-active-mobile {
+	background: #5f2eea;
+	display: none;
+	border: none;
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 16px;
+	width: 40%;
+	padding: 12px;
+}
+
+@media (max-width: 575.98px) {
+	/* Payment Page Mobile */
+	.payment__main {
+		padding: 60px 12px;
+		display: block;
+	}
+	.payment__main-info-title {
+		display: none;
+	}
+	.payment__main-info-card {
+		display: none;
+	}
+	.payment__main-info {
+		width: 100%;
+	}
+	.payment__main-method {
+		width: 100%;
+	}
+	.payment__main-method-card {
+		padding: 12px;
+		width: 100%;
+	}
+	.payment__main-method-card-child {
+		padding: 9px 18px;
+		flex: 1 0 24%;
+	}
+	.payment__main-method-card-child:nth-last-child(7) {
+		display: none;
+	}
+	.payment__main-method-card-child:nth-last-child(8) {
+		display: none;
+	}
+	.payment__main-method-image {
+		object-fit: contain;
+		width: 100%;
+		height: 20px;
+	}
+	.personal__main-info {
+		margin: 40px 0px;
+		width: 100%;
+		position: relative;
+	}
+	.personal__main-info-card-input {
+		padding: 12px 36px;
+	}
+	.personal__main-info-card-alert {
+		padding: 12px 15px;
+	}
+	.payment__main-method-button {
+		display: none;
+	}
+	.payment__main-method-button-active {
+		width: 94%;
+		display: none;
+	}
+	.payment__main-method-button-active-mobile {
+		width: 94%;
+		margin: 40px 0px;
+		display: block;
+	}
+	.payment__main-method-title {
+		margin: 0px;
+	}
+}
