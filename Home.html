@@ -12,15 +12,11 @@
   <!-- CSS Style -->
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <!-- CDN BOOTSTRAP -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <title>Tickitz</title>
 </head>
 
 <body>
 
-  <!-- Navigation -->
   <header>
     <nav class="navigation__homepage">
       <div class="navigation__homepage__parent">
@@ -37,7 +33,8 @@
         <button class="navigation__homepage-button-icon-mobile" onclick="menuNavigation()">
           <i class="bi bi-text-right fs-1 d-block d-md-none"></i>
         </button>
-
+        <a href="#navigation_menu" data-bs-toggle="collapse" href="#navigation__menu" aria-expanded="false"
+          aria-controls="navigation__menu"></a>
         <div class="mx-3 d-none d-md-inline-flex">
           <select class="navigation__homepage--option-select">
             <option hidden>Location</option>
@@ -48,18 +45,15 @@
           <i class="bi bi-search"></i>
         </div>
         <div class="mx-3 d-none d-md-inline-flex">
-          <button class="button__signup--homepage">Sign Up</button>
+          <img src="assets/img/Profile.png" class="img-fluid w-50" alt="Profile">
         </div>
 
       </div>
     </nav>
-
-
     <!-- Menu Mobile -->
     <div class="navigation__homepage--mobile d-md-none p-4 position-absolute" id="menu">
       <input type="search" class="navigation__homepage--mobile__input" placeholder="Search...">
       <div class="text-center">
-        <a href="#" class="d-block d-md-none navigation__homepage--mobile-link mb-3">Location</a>
         <div class="navigation__homepage--mobile-parent-link">
           <a href="#" class="d-block d-md-none navigation__homepage--mobile-link">Home</a>
         </div>
@@ -75,7 +69,6 @@
     </div>
     <!-- Akhir Menu Mobile -->
   </header>
-  <!-- Akhir Navigation -->
 
   <!-- Hero -->
   <main class="container mx-auto  hero">
@@ -106,19 +99,15 @@
     <section class="mt-4">
       <div class="row flex-nowrap" style="overflow-x:auto;">
         <div class="movies__list--card col-sm-6 col-md-2 mx-3">
-          <img src="assets/img/movies3.png" class="movies__list-image img-fluid" alt="Movies">
-          <div class="movies__list--card-hover text-center">
-            <h2>Spider-Man: Homecoming</h2>
-            <p>Acion, Adventure, Sci-FI</p>
-            <a href="Detail-movie.html" class="text-decoration-none">
-              <button class="movies__list--card-hover-btn-details">
-                Details
-              </button>
-            </a>
-            <a href="Order-movie.html" class="text-decoration-none">
+          <a href="Detail-movie.html" class="text-decoration-none text-dark"><img src="assets/img/movies3.png"
+              class="movies__list-image img-fluid" alt="Movies">
+            <div class="movies__list--card-hover text-center">
+              <h2>Spider-Man: Homecoming</h2>
+              <p>Acion, Adventure, Sci-FI</p>
+              <button class="movies__list--card-hover-btn-details">Details</button>
               <button class="movies__list--card-hover-btn">Book Now</button>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
         <div class="movies__list--card  col-sm-6 col-md-2 mx-3">
           <img src="assets/img/movies2.png" class="movies__list-image img-fluid" alt="Movies">
@@ -166,7 +155,7 @@
       <!-- DATE UPCOMMING MOVIES -->
       <div class="d-flex justify-content-between align-items-center">
         <div>
-          <h4 class="fw-bold title__nowshowing">Upcomming Movies</h4>
+          <h4 class="fw-bold title__nowshowing mx-3">Upcomming Movies</h4>
         </div>
         <div>
           <a href="#" class="fw-bold allmovie__nowshowing">view all</a>
@@ -340,7 +329,6 @@
       <p class="footer__tickitz--title-copyright mt-4">© 2021 Tickitz. All Rights Reserved.</p>
     </div>
   </footer>
-  >
 
   <script>
     const menu = document.getElementById('menu');
