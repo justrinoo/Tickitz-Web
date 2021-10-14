@@ -242,7 +242,7 @@ span {
 	display: block;
 }
 .upcomming__movies--button-details {
-	margin-top: 20px;
+	margin: 20px 0px;
 	border: 1px solid #5f2eea;
 	background-color: transparent;
 	color: #5f2eea;
@@ -279,6 +279,7 @@ span {
 	width: 90%;
 	height: 250px;
 }
+
 .footer__tickitz {
 	margin-top: 80px;
 }
@@ -290,7 +291,7 @@ span {
 	letter-spacing: 0.75px;
 }
 .footer__tickitz--sponsor {
-	width: 120px;
+	width: 35%;
 }
 .footer__tickitz--link {
 	color: #6e7191;
@@ -347,6 +348,7 @@ span {
 	}
 	.footer__tickitz {
 		margin: 0;
+		padding: 20px;
 	}
 	.join__tickitz--subtitle {
 		font-size: 48px;
@@ -369,6 +371,15 @@ span {
 		color: #6e7191;
 		display: block;
 	}
+	.footer__tickitz--sponsor_mobile-column a:nth-child(1) {
+		margin: 0px 0px;
+	}
+	.footer__tickitz--sponsor_mobile-column a:nth-child(2) {
+		margin: 0px 24px;
+	}
+	.footer__tickitz--sponsor_mobile-column a:nth-child(3) {
+		margin: 0px 24px;
+	}
 	.footer__tickitz--brand {
 		margin: 120px 0px 0px;
 		padding: 10px;
@@ -378,8 +389,7 @@ span {
 		padding: 10px;
 	}
 	.footer__tickitz--sponsor {
-		margin: 0px 24px;
-		width: 76.24px;
+		width: 77.66px;
 	}
 	.footer__tickitz--title-follow-us_mobile {
 		margin: 25px 0px 0px;
@@ -405,21 +415,6 @@ span {
 		width: 40%;
 	}
 
-	.navigation__homepage-sub-mobile {
-		padding: 4px 36px;
-		background-color: #ffffff;
-		display: flex;
-		justify-content: space-between;
-	}
-	.navigation__homepage-sub-mobile span {
-		color: #14142b;
-		font-size: 20px;
-		font-weight: 600;
-	}
-	.navigation__homepage-sub-mobile p {
-		color: #aaaaaa;
-		font-size: 16px;
-	}
 	.upcomming__movies--desc {
 		font-size: 11px;
 		color: #a0a3bd;

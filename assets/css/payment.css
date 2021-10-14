@@ -161,9 +161,28 @@
 	width: 40%;
 	padding: 12px;
 }
+.navigation__homepage-sub-mobile {
+	display: none;
+}
 
 @media (max-width: 575.98px) {
 	/* Payment Page Mobile */
+
+	.navigation__homepage-sub-mobile {
+		padding: 4px 36px;
+		background-color: #ffffff;
+		display: flex;
+		justify-content: space-between;
+	}
+	.navigation__homepage-sub-mobile span {
+		color: #14142b;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.navigation__homepage-sub-mobile p {
+		color: #aaaaaa;
+		font-size: 16px;
+	}
 	.payment__main {
 		padding: 60px 12px;
 		display: block;

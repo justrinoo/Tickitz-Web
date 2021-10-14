@@ -49,18 +49,31 @@
 	margin-bottom: 50px;
 }
 .detail__schedule-input-date {
-	margin: 0px 12px;
+	margin: -1px 12px;
+	text-align: center;
 	background: #eff0f6;
+	flex-direction: row-reverse;
+	font-weight: bold;
+	color: #4e4b66;
+	border-radius: 6px;
+	border: none;
+	padding: 8px 36px 0px 0px;
+}
+.detail__schedule-input-city {
+	margin: 0px -10px;
+	background: #eff0f6;
+	font-weight: bold;
+	color: #4e4b66;
 	border-radius: 6px;
 	border: none;
 	padding: 8px 64px;
 }
-.detail__schedule-input-city {
-	margin: 0px 12px;
-	background: #eff0f6;
+.kotak-icon {
+	width: 50px;
+	height: 45px;
+	text-align: center;
 	border-radius: 6px;
-	border: none;
-	padding: 8px 64px;
+	background-color: #eff0f6;
 }
 .detail__movie--line {
 	opacity: 1;
@@ -198,6 +211,9 @@
 	}
 	.detail__movie--image {
 		width: 200px;
+	}
+	.kotak-icon {
+		display: none;
 	}
 	.detail__movie--desc {
 		padding: 0;
