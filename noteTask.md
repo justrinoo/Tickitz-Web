@@ -3,8 +3,8 @@ Tickitz Design
 
 - Bootstrap
 - CSS Native
-  -Login => RESPONSIVE
+  -Login => ACCEPTED
   -Home Page => ACCEPTED
-  -Movie Detail => RESPONSIVE
-  -Order Page => {seat: null}
-  -Payment Page
+  -Movie Detail => ACCEPTED
+  -Order Page => {seat: null} => ACCEPTED
+  -Payment Page => ACCEPTED
