@@ -2,6 +2,13 @@
 
 <p>Hello, i made website <b>Tickitz</b> use HTML,CSS, and Bootstrap, you can see my website <a href="https://tickitz-demo-web.netlify.app">here</a></p>
 
+## Installation
+```sh
+git clone https://github.com/riyaraa/Tickitz-Frontend.git
+cd Tickitz-Frontend
+open your browser Home.html
+```
+
 ## Demo
 
 <details>
