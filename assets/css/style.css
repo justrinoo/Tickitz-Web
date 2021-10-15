@@ -197,6 +197,7 @@
 }
 
 .allmovie__nowshowing {
+	margin: 0px 42px;
 	color: #5f2eea;
 	font-weight: bold;
 }
@@ -204,7 +205,7 @@
 	margin: 180px 0;
 }
 .upcomming__movies--button-active {
-	padding: 12px 0px;
+	padding: 8px 0px;
 	width: 100%;
 	font-size: 14px;
 	text-align: center;
@@ -218,7 +219,7 @@
 	color: #ffffff;
 }
 .upcomming__movies--button {
-	padding: 12px 0px;
+	padding: 8px 0px;
 	width: 100%;
 	font-size: 14px;
 	text-align: center;
@@ -296,9 +297,33 @@ span {
 .footer__tickitz--link {
 	color: #6e7191;
 }
+.upcomming__movies--button-parent {
+	overflow-x: hidden;
+}
+.upcomming__movies-button-child {
+	margin: 0px 2px;
+}
+.upcomming__movies-list-main {
+	overflow-x: hidden;
+}
+.upcomming__movies-list {
+	margin: 0px 19px;
+}
+.movies__list--card-main {
+	overflow-x: hidden;
+}
 /* END HOME */
 
 @media (max-width: 575.98px) {
+	.movies__list--card-main {
+		overflow-x: auto;
+	}
+	.upcomming__movies-list-main {
+		overflow-x: auto;
+	}
+	.upcomming__movies--button-parent {
+		overflow-x: auto;
+	}
 	header {
 		width: 100%;
 	}
@@ -324,6 +349,7 @@ span {
 		font-size: 18px;
 	}
 	.allmovie__nowshowing {
+		margin: 0px;
 		text-decoration: none;
 	}
 	.hero__spacing--column-left {
@@ -412,7 +438,8 @@ span {
 		width: 50%;
 	}
 	.upcomming__movies-list {
-		width: 40%;
+		width: 55%;
+		margin: 0px 10px;
 	}
 
 	.upcomming__movies--desc {
