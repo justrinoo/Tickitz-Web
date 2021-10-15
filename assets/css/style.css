@@ -56,7 +56,7 @@
 	text-decoration: underline;
 }
 .navigation__homepage {
-	padding: 28px 74px;
+	padding: 20px 74px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -417,7 +417,6 @@ span {
 
 	.upcomming__movies--desc {
 		font-size: 11px;
-		color: #a0a3bd;
 	}
 }
 

@@ -183,5 +183,8 @@
 	.order__movie-info-order-list-child {
 		margin: 16px 0px;
 	}
+	.subnav__header {
+		display: none;
+	}
 }
 /* End Order Movie */

@@ -123,6 +123,7 @@
 	flex-wrap: wrap;
 }
 .detail__list_schedule-card-body-time span {
+	text-align: center;
 	margin: 6px 0px;
 	flex: 21%;
 	color: #4e4b66;

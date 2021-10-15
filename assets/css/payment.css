@@ -125,10 +125,14 @@
 	font-weight: 600;
 	opacity: 0.8;
 }
-.payment__main-optional-title span {
+.payment__main-optional-title a {
 	color: #5f2eea;
 	font-weight: bold;
 	display: inline-block;
+	text-decoration: none;
+}
+.payment__main-optional-title a:hover {
+	text-decoration: underline;
 }
 .payment__main-method-main-button {
 	display: flex;
