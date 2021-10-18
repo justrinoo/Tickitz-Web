@@ -6,6 +6,7 @@
 ```sh
 git clone https://github.com/riyaraa/Tickitz-Frontend.git
 cd Tickitz-Frontend
+npm install
 open your browser Home.html
 ```
 
